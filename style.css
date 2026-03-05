@@ -39,6 +39,32 @@ background:linear-gradient(
 
 }
 
+.navbar{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:10px 15px;
+    background:linear-gradient(90deg,#a80000,#d10000);
+}
+
+.logo-box{
+    background:white;
+    color:black;
+    font-weight:bold;
+    text-align:center;
+    padding:6px 12px;
+    border-radius:12px;
+    font-size:12px;
+    line-height:1.2;
+}
+
+nav a{
+    color:white;
+    text-decoration:none;
+    margin-left:15px;
+    font-weight:500;
+}
+
 .logo{
 
 font-weight:700;
