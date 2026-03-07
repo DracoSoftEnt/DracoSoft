@@ -601,6 +601,22 @@ color:#ccc;
 
 }
 
+@media (max-width:600px){
+
+.navbar{
+padding:15px 6%;
+}
+
+.menu{
+gap:15px;
+}
+
+.dark-btn{
+margin-left:12px;
+}
+
+}
+
 /* FOOTER */
 
 .dark-mode footer{
