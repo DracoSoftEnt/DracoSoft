@@ -741,8 +741,70 @@ transform:translateY(-10px) scale(1.03);
 
 box-shadow:0 20px 40px rgba(0,0,0,0.15);
 
+
+/* BOTON */
+
+.dark-btn{
+
+background:#eee;
+
+border:none;
+
+padding:8px 12px;
+
+border-radius:20px;
+
+cursor:pointer;
+
+font-size:16px;
+
 }
 
+
+
+/* MODO OSCURO */
+
+.dark-mode{
+
+background:#121212;
+
+color:white;
+
+}
+
+.dark-mode .navbar{
+
+background:#1e1e1e;
+
+border-bottom:1px solid #333;
+
+}
+
+.dark-mode .search{
+
+background:#1e1e1e;
+
+color:white;
+
+border:1px solid #444;
+
+}
+
+.dark-mode .app-card{
+
+background:#1e1e1e;
+
+color:white;
+
+box-shadow:0 10px 25px rgba(0,0,0,0.4);
+
+}
+
+.dark-mode footer{
+
+color:#aaa;
+
+}
 
 /*
 facebook page dracosoft 
