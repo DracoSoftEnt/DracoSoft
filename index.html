@@ -1,222 +1,188 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="es">
-
-
-<head>
-
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-<title>DracoSoft</title>
-
-<link rel="stylesheet" href="style.css">
-
-<link rel="icon" type="image/png" href="favicon.png">
-
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-
-</head>
-<body>
-
-<header>
-
-<nav class="navbar">
-
-<div class="logo">DRACOSOFT ENTERTAINMENT</div>
-
-<ul class="menu">
-</ul>
-
-<button id="darkToggle" class="dark-btn">🌑</button>
-
-</nav>
-
-</header>
-
-
-<section class="hero">
-
-<div class="hero-box">
-
-<h1>DRACO<span>SOFT</span></h1>
-
-<p>Innovación digital y soluciones tecnológicas modernas.</p>
-
-</div>
-
-</section>
-
-
-<section class="services">
-
-<div class="card">
-
-<h2>CINEEVIP</h2>
-
-<p>Acceso premium a plataformas de streaming.</p>
-
-<a class="service-btn" href="#streaming">Ver más</a>
-
-</div>
-
-
-<div class="card">
-
-<h2>JUEGOS DRACOSOFT</h2>
-
-<p>Desarrollo de videojuegos y proyectos interactivos.</p>
-
-<a class="service-btn"
-href="https://dracosoft-entertainment.itch.io/"
-target="_blank">
-
-Ver más
-
-</a>
-
-</div>
-
-
-<div class="card">
-
-<h2>DRACOMODS</h2>
-
-<p>Mods, Herramientas y APKs Premium.</p>
-
-<a class="service-btn"
-href="https://dracosoftent.github.io/DracoMods/">
-
-Ver más
-
-</a>
-
-</div>
-
-</section>
-
-
-
-
-<section class="streaming" id="streaming">
-
-<h2>Plataformas disponibles</h2>
-
-<p class="streaming-sub">
-Accede a las mejores plataformas de entretenimiento.
-</p>
-
-<div class="streaming-logos">
-
-<div class="stream-card">
-<img src="https://upload.wikimedia.org/wikipedia/commons/0/08/Netflix_2015_logo.svg">
-</div>
-
-<div class="stream-card">
-<img src="https://upload.wikimedia.org/wikipedia/commons/1/17/HBO_Max_Logo.svg">
-</div>
-
-<div class="stream-card">
-<img src="https://upload.wikimedia.org/wikipedia/commons/f/f1/Prime_Video.png">
-</div>
-
-<div class="stream-card">
-<img src="https://upload.wikimedia.org/wikipedia/commons/3/3e/Disney%2B_logo.svg">
-</div>
-
-<div class="stream-card">
-<img src="https://upload.wikimedia.org/wikipedia/commons/0/08/Crunchyroll_Logo.png">
-</div>
-
-<div class="stream-card">
-<img src="https://upload.wikimedia.org/wikipedia/commons/1/19/Spotify_logo_without_text.svg">
-</div>
-
-</div>
-
-<a class="buy-btn"
-href="https://wa.me/573116136807"
-target="_blank">
-
-Comprar ahora
-
-</a>
-
-</section>
-
-
-
-<section class="reviews" id="reviews">
-
-<h2>Opiniones de clientes</h2>
-
-<div class="review-grid">
-
-<div class="review">
-<p>"Excelente servicio, adquiri 3 pantallas de netflix en una promocion y me han funcionado perfecto, Gracias!."</p>
-<span>★★★★★</span>
-</div>
-
-<div class="review">
-<p>"muy buenas y de gran calidad, rara vez se caen, muy recomendadas."</p>
-<span>★★★★</span>
-</div>
-
-<div class="review">
-<p>"Muy recomendado, garantia casi inmediata simplemente magico."</p>
-<span>★★★★★</span>
-</div>
-
-<div class="review">
-<p>"pague y en menos de un minuto me dieron las credenciales, es una locura."</p>
-<span>★★★★★</span>
-</div>
-
-</div>
-
-</section>
-
-
-
-<footer>
-
-<p>© 2026 DRACOSOFT ENTERTAINMENT</p>
-
-</footer>
-
-
-
-<script>
-
-document.addEventListener("DOMContentLoaded", function(){
-
-const toggle = document.getElementById("darkToggle")
-
-if(localStorage.getItem("darkmode") === "active"){
-
-document.body.classList.add("dark-mode")
-
-}
-
-toggle.addEventListener("click", function(){
-
-document.body.classList.toggle("dark-mode")
-
-if(document.body.classList.contains("dark-mode")){
-
-localStorage.setItem("darkmode","active")
-
-}else{
-
-localStorage.setItem("darkmode","inactive")
-
-}
-
-})
-
-})
-
-</script>
-
-
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>DracoSoft</title>
+
+    <link rel="stylesheet" href="style.css" />
+
+    <link rel="icon" type="image/png" href="favicon.png" />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <nav class="navbar">
+        <div class="logo">DRACOSOFT ENTERTAINMENT</div>
+
+        <ul class="menu"></ul>
+
+        <button id="darkToggle" class="dark-btn">🌑</button>
+      </nav>
+    </header>
+
+    <section class="hero">
+      <div class="hero-box">
+        <h1>DRACO<span>SOFT</span></h1>
+
+        <p>Innovación digital y soluciones tecnológicas modernas.</p>
+      </div>
+    </section>
+
+    <section class="services">
+      <div class="card">
+        <h2>DRACOLEARN</h2>
+
+        <p>
+          Plataforma de aprendizaje online de programacion & mas... (Actualmente
+          en desarrollo).
+        </p>
+
+        <a class="service-btn" href="#streaming">Ver más</a>
+      </div>
+
+      <div class="card">
+        <h2>JUEGOS DRACOSOFT</h2>
+
+        <p>
+          Desarrollo de videojuegos y proyectos interactivos creados por
+          DracoSoft.
+        </p>
+
+        <a
+          class="service-btn"
+          href="https://dracosoft-entertainment.itch.io/"
+          target="_blank"
+        >
+          Ver más
+        </a>
+      </div>
+
+      <div class="card">
+        <h2>DRACOMODS</h2>
+
+        <p>
+          Mods, Herramientas, Programas y APKs Premium totalmente Gratuitas.
+        </p>
+
+        <a class="service-btn" href="https://dracosoftent.github.io/DracoMods/">
+          Ver más
+        </a>
+      </div>
+    </section>
+
+    <section class="streaming" id="streaming">
+      <h1>OTROS SERVICIOS:</h1>
+      <br />
+
+      <p class="streaming-sub">
+        Accede a las mejores plataformas de entretenimiento.
+      </p>
+
+      <div class="streaming-logos">
+        <div class="stream-card">
+          <img
+            src="https://upload.wikimedia.org/wikipedia/commons/0/08/Netflix_2015_logo.svg"
+          />
+        </div>
+
+        <div class="stream-card">
+          <img
+            src="https://upload.wikimedia.org/wikipedia/commons/1/17/HBO_Max_Logo.svg"
+          />
+        </div>
+
+        <div class="stream-card">
+          <img
+            src="https://upload.wikimedia.org/wikipedia/commons/f/f1/Prime_Video.png"
+          />
+        </div>
+
+        <div class="stream-card">
+          <img
+            src="https://upload.wikimedia.org/wikipedia/commons/3/3e/Disney%2B_logo.svg"
+          />
+        </div>
+
+        <div class="stream-card">
+          <img
+            src="https://upload.wikimedia.org/wikipedia/commons/0/08/Crunchyroll_Logo.png"
+          />
+        </div>
+
+        <div class="stream-card">
+          <img
+            src="https://upload.wikimedia.org/wikipedia/commons/1/19/Spotify_logo_without_text.svg"
+          />
+        </div>
+      </div>
+
+      <a class="buy-btn" href="https://wa.me/573116136807" target="_blank">
+        Comprar ahora
+      </a>
+    </section>
+
+    <section class="reviews" id="reviews">
+      <h2>Opiniones de clientes</h2>
+
+      <div class="review-grid">
+        <div class="review">
+          <p>
+            "Excelente servicio, adquiri 3 pantallas de netflix en una promocion
+            y me han funcionado perfecto, Gracias!."
+          </p>
+          <span>★★★★★</span>
+        </div>
+
+        <div class="review">
+          <p>
+            "muy buenas y de gran calidad, rara vez se caen, muy recomendadas."
+          </p>
+          <span>★★★★</span>
+        </div>
+
+        <div class="review">
+          <p>"Muy recomendado, garantia casi inmediata simplemente magico."</p>
+          <span>★★★★★</span>
+        </div>
+
+        <div class="review">
+          <p>
+            "pague y en menos de un minuto me dieron las credenciales, es una
+            locura."
+          </p>
+          <span>★★★★★</span>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <p>© 2026 DRACOSOFT ENTERTAINMENT</p>
+    </footer>
+
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        const toggle = document.getElementById("darkToggle");
+
+        if (localStorage.getItem("darkmode") === "active") {
+          document.body.classList.add("dark-mode");
+        }
+
+        toggle.addEventListener("click", function () {
+          document.body.classList.toggle("dark-mode");
+
+          if (document.body.classList.contains("dark-mode")) {
+            localStorage.setItem("darkmode", "active");
+          } else {
+            localStorage.setItem("darkmode", "inactive");
+          }
+        });
+      });
+    </script>
+  </body>
 </html>
